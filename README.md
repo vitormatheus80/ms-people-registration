@@ -1,6 +1,9 @@
 # API de Pessoas
 
-A API de Pessoas é uma aplicação que permite cadastrar, buscar e atualizar informações de pessoas e seus endereços. Ela está hospedada em https://ms-people-registration-production.up.railway.app/ e possui os seguintes endpoints:
+A API de Pessoas é uma aplicação que permite cadastrar, buscar e atualizar informações de pessoas e seus endereços.
+
+Ela está deployada no Railway e pode ser usado através do seguinte link: 
+    https://ms-people-registration-production.up.railway.app/ e possui os seguintes endpoints:
 
 - POST /persons: Cadastra uma nova pessoa com nome e data de nascimento.
 - POST /addresses: Cadastra um novo endereço para a pessoa com o ID especificado.
