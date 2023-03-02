@@ -17,9 +17,11 @@ Exemplo de JSON para cadastrar uma nova pessoa:
     "name":"Vitor",
     "birthdate":"1993-02-20"
 }
+```
 
 Exemplo de JSON para cadastrar um novo endereço para uma pessoa com ID 1:
 
+```json
 {
     "id": 1,
     "street": "Rua M",
@@ -27,3 +29,4 @@ Exemplo de JSON para cadastrar um novo endereço para uma pessoa com ID 1:
     "number": "100",
     "city": "São Paulo"
 }
+```
