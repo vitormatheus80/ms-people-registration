@@ -31,3 +31,8 @@ Exemplo de JSON para cadastrar um novo endereço para uma pessoa com ID 1:
     "city": "São Paulo"
 }
 ```
+## Tecnologias utilizadas
+* Java 17
+* Spring boot
+* JPA
+* MySql
