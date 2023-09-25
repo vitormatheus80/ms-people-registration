@@ -9,6 +9,7 @@ A API de Pessoas é uma aplicação que permite cadastrar, buscar e atualizar in
 - GET /persons/{id}/addresses: Retorna uma lista de endereços da pessoa com o ID especificado.
 - GET /persons/{id}/addresses-main: Retorna o endereço padrão da pessoa com o ID especificado.
 - PUT /persons/{id}: Atualiza dados de uma pessoa por ID.
+- PUT /persons/{id}/addresses/{addressId}/set-main: Atualiza o endereço padrão de uma pessoa, especificando o id da pessoa e do endereço
 
 Exemplo de JSON para cadastrar uma nova pessoa:
 
